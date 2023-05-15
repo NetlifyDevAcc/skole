@@ -11,9 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">Get started by editing <code>pages/index.js</code></p>
-        <input type="text" id="fname" name="fname"><br><br>
+        <input type="text" id="name" name="name">
+        <input type="text" id="password" name="password">
       </main>
 
       <Footer />
